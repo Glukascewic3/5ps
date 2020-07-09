@@ -62,7 +62,7 @@ GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
     var value = 5; // always spawn a 5.
 	
-	this.score += 1;
+	this.score += 5;
 	
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
